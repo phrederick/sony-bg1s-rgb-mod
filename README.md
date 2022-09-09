@@ -1,5 +1,7 @@
 # Sony BG-1S CRT Chassis RGB Modification
 
+<!-- TOC -->
+
 - [Overview](#overview)
 - [Who this guide is for](#who-this-guide-is-for)
 - [Tools List](#tools-list)
@@ -9,7 +11,10 @@
     - [Main board modification images](#main-board-modification-images)
 - [Step 3 - Case / enclosure modifications](#step-3---case--enclosure-modifications)
     - [Case / enclosure modification images](#case--enclosure-modification-images)
+- [Step 4 - Hookup and testing](#step-4---hookup-and-testing)
 - [References and acknowledgements](#references-and-acknowledgements)
+
+<!-- /TOC -->
 
 ## Overview
 The purpose of this document is to explain how to modify a Sony 'BG-1S' CRT television chassis to be able to support RGB. As a disclaimer, I am not an electronics engineer by any means, and all of the information contained within is collated from various sources online. This documentation is mostly for my own reference, but I do hope others find it useful too.
@@ -34,7 +39,6 @@ To find out if you can achieve the mod as per the instructions on this page, you
 |Resistor|Through hole - 75 or 150 Ohm|5|[Digi-Key search (Resistor, 0.5W, Metal Film, 75 / 150 Ohms, In Stock)](https://www.digikey.com.au/en/products/filter/through-hole-resistors/53?s=N4IgjCBcoExaBjKAzAhgGwM4FMA0IB7KAbRBgA4A2cuAXXwAcAXKEAZSYCcBLAOwHMQAX3xgA7ABZ4IJJDRY8hEiADMkgJxgArCHOhmrDjwHD8MAAzkd0GSgw58RSKTFaABAHkAFgFtMIUS1zT19-PQNIEABVXm4mD2QAWWxUTABXTmxTEABaOBtZLjTFJ1IdWiERMmVMzG5MJgJOXSEgA)|
 |Switch|SPST toggle or rocker switch|1|[Digi-Key search (Rocker switch, SPST, On-Off, In Stock)](https://www.digikey.com.au/en/products/filter/rocker-switches/195?s=N4IgjCBcpgzADFUBjKAzAhgGwM4FMAaEAeygG0QAWeANgFYB2GkAXSIAcAXKEAZU4BOASwB2AcxABfIgCZYdJCFSRMuQiXIhYADhnxKlVh26Q%2Bg0ROkgAtDMXLBAV3WlIFBS0lW7bkAOLIANZ4AgAEOADuQpzIABaskkA)|
 |BNC Connectors|Female socket|3|[Digi-Key - 2057-RF1-106-D-00-50-HDW-ND](https://www.digikey.com.au/product-detail/en/adam-tech/RF1-106-D-00-50-HDW/2057-RF1-106-D-00-50-HDW-ND/9830449)<br>[Jaycar - PS0658 (Australia)](https://www.jaycar.com.au/bnc-panel-socket-single-hole-mount/p/PS0658)|
-|Switch|SPST toggle or rocker switch|1|[Digi-Key search (Rocker switch, SPST, On-Off, In Stock)](https://www.digikey.com.au/en/products/filter/rocker-switches/195?s=N4IgjCBcpgzADFUBjKAzAhgGwM4FMAaEAeygG0QAWeANgFYB2GkAXSIAcAXKEAZU4BOASwB2AcxABfIgCZYdJCFSRMuQiXIhYADhnxKlVh26Q%2Bg0ROkgAtDMXLBAV3WlIFBS0lW7bkAOLIANZ4AgAEOADuQpzIABaskkA)|
 |Wire|Insulated hookup wire|||
 
 ## Step 1 - Dismantling the TV
@@ -97,6 +101,15 @@ Image|Notes|
 |<img src="https://i.imgur.com/ZSVSKrT.jpg" width="300">|Rear panel, view from the inside showing how the BNC connectors, switch and wiring is installed.|
 |<img src="https://i.imgur.com/KYHzi6c.jpg" width="300">|Inside with case partially open, showing an example of adding connectors for ease of future maintenance.|
 
+## Step 4 - Hookup and testing
+Now that the modification is complete, all that is left to do is test it out. Hookup your RGB capable source (in my case, I have tested with a PC running CRT Emudriver and also an RGP-Pi).
+1. Connect the R, G, and B connectors to their respective newly-installed connectors.
+2. Connect your sync connector to one of the pre-existing video inputs (i.e. the yellow connector) via way of a RCA male to BNC female adaptor.
+3. Switch on your TV and source and make sure you switch to the video AV input that your sync connector is connected to.
+4. Flick the newly-installed RGB switch.
+5. If you've done everything correctly, you will now be basking in pure RGB goodness. Enjoy 😄
+
 ## References and acknowledgements
+* Various members of the '[Aussie CRTs Facebook page](https://www.facebook.com/groups/703084023981413)' for their positive feedback and advice.
 * The shmups '[TV RGB mod thread](https://shmups.system11.org/viewtopic.php?f=6&t=56155)'.
 * SpudZgames YouTube channel, specifically this video: https://www.youtube.com/watch?v=_qDGC4mBbEM
