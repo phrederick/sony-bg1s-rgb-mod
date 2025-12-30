@@ -2,17 +2,18 @@
 
 <!-- TOC -->
 
-- [Overview](#overview)
-- [Who this guide is for](#who-this-guide-is-for)
-- [Tools List](#tools-list)
-- [Parts List](#parts-list)
-- [Step 1 - Dismantling the TV](#step-1---dismantling-the-tv)
-- [Step 2 - Main board modifications](#step-2---main-board-modifications)
-    - [Main board modification images](#main-board-modification-images)
-- [Step 3 - Case / enclosure modifications](#step-3---case--enclosure-modifications)
-    - [Case / enclosure modification images](#case--enclosure-modification-images)
-- [Step 4 - Hookup and testing](#step-4---hookup-and-testing)
-- [References and acknowledgements](#references-and-acknowledgements)
+- [Sony BG-1S CRT Chassis RGB Modification](#sony-bg-1s-crt-chassis-rgb-modification)
+    - [Overview](#overview)
+    - [Who this guide is for](#who-this-guide-is-for)
+    - [Tools List](#tools-list)
+    - [Parts List](#parts-list)
+    - [Step 1 - Dismantling the TV](#step-1---dismantling-the-tv)
+    - [Step 2 - Main board modifications](#step-2---main-board-modifications)
+        - [Main board modification images](#main-board-modification-images)
+    - [Step 3 - Case / enclosure modifications](#step-3---case--enclosure-modifications)
+        - [Case / enclosure modification images](#case--enclosure-modification-images)
+    - [Step 4 - Hookup and testing](#step-4---hookup-and-testing)
+    - [References and acknowledgements](#references-and-acknowledgements)
 
 <!-- /TOC -->
 
@@ -99,7 +100,7 @@ Image|Notes|
 -----|-----|
 |<img src="https://i.imgur.com/l4BJHlV.jpg" width="300">|Rear panel, drilling holes.|
 |<img src="https://i.imgur.com/ZSVSKrT.jpg" width="300">|Rear panel, view from the inside showing how the BNC connectors, switch and wiring is installed.|
-|<img src="https://i.imgur.com/KYHzi6c.jpg" width="300">|Inside with case partially open, showing an example of adding connectors for ease of future maintenance.|
+|<img src="https://i.imgur.com/KYHzi6c.jpeg" width="300">|Inside with case partially open, showing an example of adding connectors for ease of future maintenance.|
 
 ## Step 4 - Hookup and testing
 Now that the modification is complete, all that is left to do is test it out. Hookup your RGB capable source (in my case, I have tested with a PC running CRT Emudriver and also an RGP-Pi).
