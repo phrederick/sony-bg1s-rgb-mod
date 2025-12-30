@@ -69,9 +69,9 @@ If you went with option 1 from step 4, you will also have your R, G, and B termi
 ### Main board modification images
 Image|Notes|
 -----|-----|
-|<img src="https://i.imgur.com/sbJuRmX.jpg" width="300">|Main board - top, showing how CN106 looks after all wiring is installed.|
-|<img src="https://i.imgur.com/QGPOaVI.jpg" width="300">|Main board - bottom, showing wire installed at IC002 voltage regulator to get 5V.|
-|<img src="https://i.imgur.com/m3oGds6.jpg" width="300">|Main board - bottom, testing that we're seeing 5V on the newly installed wire.|
+|<img src="https://i.imgur.com/sbJuRmX.jpeg" width="300">|Main board - top, showing how CN106 looks after all wiring is installed.|
+|<img src="https://i.imgur.com/QGPOaVI.jpeg" width="300">|Main board - bottom, showing wire installed at IC002 voltage regulator to get 5V.|
+|<img src="https://i.imgur.com/m3oGds6.jpeg" width="300">|Main board - bottom, testing that we're seeing 5V on the newly installed wire.|
 
 ## Step 3 - Case / enclosure modifications
 Believe it or not, you are almost done. All that is left now is to install and wire up the BNC connectors and switch.
@@ -98,8 +98,8 @@ When you are complete with these steps, you should have your BNC connectors and 
 ### Case / enclosure modification images
 Image|Notes|
 -----|-----|
-|<img src="https://i.imgur.com/l4BJHlV.jpg" width="300">|Rear panel, drilling holes.|
-|<img src="https://i.imgur.com/ZSVSKrT.jpg" width="300">|Rear panel, view from the inside showing how the BNC connectors, switch and wiring is installed.|
+|<img src="https://i.imgur.com/l4BJHlV.jpeg" width="300">|Rear panel, drilling holes.|
+|<img src="https://i.imgur.com/ZSVSKrT.jpeg" width="300">|Rear panel, view from the inside showing how the BNC connectors, switch and wiring is installed.|
 |<img src="https://i.imgur.com/KYHzi6c.jpeg" width="300">|Inside with case partially open, showing an example of adding connectors for ease of future maintenance.|
 
 ## Step 4 - Hookup and testing
